@@ -201,6 +201,21 @@ Deep analysis debugging mode for complex issues. Activates methodical investigat
 
 Commands: `/debug`
 
+## Deprecated
+
+These tools have been superseded by the create-plans skill and are no longer recommended for new workflows.
+
+### Commands
+
+- [`/create-prompt`](./commands/deprecated-create-prompt.md) - DEPRECATED. Use `Skill("create-plans")` for project planning instead
+- [`/run-prompt`](./commands/deprecated-run-prompt.md) - DEPRECATED. Use `Skill("create-plans")` execution workflow instead
+
+### Skills
+
+- [`create-meta-prompts`](./skills/deprecated-create-meta-prompts/) - DEPRECATED for project building. Use `Skill("create-plans")` for projects. Keep for abstract Claude→Claude pipelines only
+
+**Why deprecated:** create-plans evolved from the meta-prompting pattern with hierarchical structure (BRIEF.md → ROADMAP.md → phases), domain expertise loading from ~/.claude/skills/build/, context management, handoffs, and git versioning. It provides the full lifecycle: plan → execute → ship → iterate.
+
 ---
 
 More resources coming soon.
