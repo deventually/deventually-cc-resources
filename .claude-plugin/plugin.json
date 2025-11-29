@@ -1,13 +1,13 @@
 {
-  "name": "cc-resources",
+  "name": "deventually-cc-resources",
   "description": "Curated Claude Code skills and commands for prompt engineering, MCP servers, subagents, hooks, and productivity workflows",
   "version": "1.0.0",
   "author": {
     "name": "Lex Christopherson",
     "email": "lex@glittercowboy.com"
   },
-  "homepage": "https://github.com/deventually/cc-resources",
-  "repository": "https://github.com/deventually/cc-resources",
+  "homepage": "https://github.com/deventually/deventually-cc-resources",
+  "repository": "https://github.com/deventually/deventually-cc-resources",
   "license": "MIT",
   "keywords": [
     "skills",
