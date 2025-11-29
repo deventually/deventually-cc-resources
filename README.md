@@ -40,10 +40,10 @@ Dream big. Happy building.
 
 ```bash
 # Add the marketplace
-claude plugin marketplace add glittercowboy/taches-cc-resources
+claude plugin marketplace add deventually/deventually-cc-resources
 
 # Install the plugin
-claude plugin install taches-cc-resources
+claude plugin install deventually-cc-resources
 ```
 
 Start a new Claude Code session to use the commands and skills.
@@ -52,8 +52,8 @@ Start a new Claude Code session to use the commands and skills.
 
 ```bash
 # Clone the repo
-git clone https://github.com/glittercowboy/taches-cc-resources.git
-cd taches-cc-resources
+git clone https://github.com/deventually/deventually-cc-resources.git
+cd deventually-cc-resources
 
 # Install commands
 cp -r commands/* ~/.claude/commands/
